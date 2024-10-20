@@ -1,9 +1,9 @@
 package lsk;
 
-public class Car implements Enginable{
+public class Car extends TransportationDevice{
 
 	
-	 public void startEngine() { 
-		System.out.println("Encendiendo motor");
+	 public void startEngine(Enginable e) { 
+		e.startEngine();
 	}
 }
